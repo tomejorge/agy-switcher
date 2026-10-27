@@ -21,7 +21,7 @@ When using Antigravity (`agy`) for deep coding tasks, users frequently hit per-a
 ## Installation
 
 ```bash
-git clone https://github.com/tomegaspar/agy-switcher.git
+git clone https://github.com/tomejorge/agy-switcher.git
 cd agy-switcher
 pip install -e .
 ```
