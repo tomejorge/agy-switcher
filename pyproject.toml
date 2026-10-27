@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agy-switcher"
+version = "1.0.0"
+description = "Zero-dependency multi-account session manager and resilient coding-agent delegator for Antigravity CLI (agy)."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Tome Gaspar" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+agy-switcher = "agy_switcher.cli:main"
+switch-gemini = "agy_switcher.cli:switch_main"
+gemini-coder = "agy_switcher.cli:coder_main"
